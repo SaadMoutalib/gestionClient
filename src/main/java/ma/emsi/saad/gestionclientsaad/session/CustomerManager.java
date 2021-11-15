@@ -17,6 +17,7 @@ import ma.emsi.saad.gestionclientsaad.Customer;
 /**
  *
  * @author saad-
+ * Session Bean pour gerer les clients
  */
 @Stateless
 public class CustomerManager {
