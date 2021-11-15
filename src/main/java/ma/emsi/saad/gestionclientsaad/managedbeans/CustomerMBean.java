@@ -35,7 +35,8 @@ public class CustomerMBean implements Serializable {
     */
     public List<Customer> getCustomers() {
         if (customerList == null) {
-        customerList = customerManager.getAllCustomers();
+            customerList = customerManager.getAllCustomers();
+            //System.out.println(customerList.toString());
         }
         return customerList;
     } 
